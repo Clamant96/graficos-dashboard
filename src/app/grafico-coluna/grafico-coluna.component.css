@@ -1,0 +1,96 @@
+.bloco {
+  padding: 1%;
+
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-wrap: wrap;
+
+}
+
+.bloco .coluna-referencia-valores {
+  width: 4%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.bloco .coluna-referencia-valores .valor {
+  font-family: 'Amaranth', sans-serif;
+  font-size: 20px !important;
+  font-weight: 200 !important;
+
+  color: var(--text-valor);
+
+  padding: 0 !important;
+  margin: 0 !important;
+
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.bloco .tabela {
+  width: 96%;
+  height: 100%;
+
+  border-left: 1px solid var(--color-text-gray);
+  border-bottom: 1px solid var(--color-text-gray);
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+
+}
+
+.bloco .tabela .coluna-dado {
+  width: 10%;
+  height: 0%;
+
+  background-color: aquamarine;
+
+  transition: height, 0.5s ease-in-out;
+
+}
+
+.bloco .linha-referencia-nomes {
+  margin-left: 4%;
+
+  width: 96%;
+  height: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.bloco .linha-referencia-nomes .nome {
+  font-family: 'Amaranth', sans-serif;
+  font-size: 20px !important;
+  font-weight: 200 !important;
+
+  color: var(--text-valor);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0.5% 0%;
+
+  width: 10%;
+  height: auto;
+
+}

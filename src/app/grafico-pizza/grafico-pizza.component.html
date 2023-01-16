@@ -1,0 +1,11 @@
+<div class="bloco">
+  <div class="tabela">
+  </div>
+</div>
+
+<div class="gabarito">
+  <div *ngFor="let item of this.arrayNomes" class="item">
+    {{item.nome}}
+    <div class="cor" style="background-color: {{item.cor}};"></div>
+  </div>
+</div>

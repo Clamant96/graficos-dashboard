@@ -1,0 +1,15 @@
+<div class="bloco">
+  <div class="coluna-referencia-valores">
+    <div *ngFor="let valor of this.arrayValor" class="valor">
+      {{valor.numero}}
+    </div>
+  </div>
+  <div class="tabela">
+    <div *ngFor="let coluna of this.arrayNomes" class="coluna-dado {{coluna.id}}" (mouseover)="renderizaComprimentoColuna(coluna.id, coluna.valor)"></div>
+  </div>
+  <div class="linha-referencia-nomes">
+    <div *ngFor="let n of this.arrayNomes" class="nome">
+      {{n.nome}}
+    </div>
+  </div>
+</div>
